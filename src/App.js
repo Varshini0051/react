@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-do
 import Dashboard from './Dashbord';
 import Login from './Login'
 import PrivateRoute from './Hoc';
+import { connect } from 'react-redux';
+import Provider from 'react-redux';
+//import EmployeeTable from './EmployeeTable';
+//import AddEmployeeForm from './AddEmployeeForm';
 
 function App () {
   const [authenticated, setAuthenticated] = useState(false);

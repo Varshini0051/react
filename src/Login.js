@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import './login.css';
+import EmployeeTable from './EmployeeTable';
+import AddEmployeeForm from './AddEmployeeForm';
 
 const Login = ({setAuthenticated}) => {
   const [username, setUsername] = useState('');
